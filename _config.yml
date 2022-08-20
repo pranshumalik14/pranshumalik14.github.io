@@ -8,13 +8,13 @@ middle_name:
 last_name: Malik
 email: pranshu.malik@uwo.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Nyc 1.
-footer_text: >
-  GG | Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+  Personal website and blog
+footer_text:
+
+google_analytics: G-8SMEYZLC8M
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌱  # favicon (alternatively, provide image name in /assets/img/)
 
 url: https://pranshumalik14.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -83,7 +83,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -255,7 +255,7 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
