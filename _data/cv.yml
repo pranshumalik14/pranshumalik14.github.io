@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Pranshu Malik
+    - name: Date of Birt
+      value: 14th November 1998
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
