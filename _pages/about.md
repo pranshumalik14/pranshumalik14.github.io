@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>Brain and Mind Institute</p>
-    <p>WIRB, Western University</p>
-    <p>London, ON, Canada, N6A 3K7</p>
+    <p>Western University</p>
+    <p>London, ON N6A 3K7</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
