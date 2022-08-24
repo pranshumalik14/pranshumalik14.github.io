@@ -3,7 +3,7 @@
   contents:
     - name: Full Name
       value: Pranshu Malik
-    - name: Date of Birt
+    - name: Date of Birth
       value: 14th November 1998
     - name: Languages
       value: English, Hindi
@@ -11,9 +11,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc
+      institution: University of Western Ontario
+      year: 2022-now
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: BASc
+      institution: University of Toronto
+      year: 2017-2022
       description:
         - Description 1.
         - Description 2.
