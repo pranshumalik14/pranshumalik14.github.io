@@ -1,0 +1,212 @@
+body {
+  font-family: 'IBM Plex Sans', 'Lato', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: orange;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+  text-align: left;
+}
+
+.profile-info {
+  font-size: 16px;
+  margin-top: 0px;
+  flex: none;
+  text-align: left;
+  width: 70%;
+}
+
+.profile-info h1 {
+  margin-top: -14px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.profile-info p {
+  margin: 2px 0;
+  text-align: left;
+}
+
+.profile-info ul {
+  text-align: left;
+}
+
+.profile-image img {
+  width: 225px;
+  height: auto;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image p {
+  margin: 0px 0;
+  margin-right: 15px;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.profile-image nav {
+  margin: 0px 0;
+  margin-right: 14px;
+  text-align: center;
+  font-size: 10pt;
+}
+
+nav {
+  margin: 1em 0;
+}
+
+nav a {
+  margin-right: 0px;
+}
+
+p+ul {
+  margin-top: -3px;
+}
+
+.research {
+  margin-top: -30px;
+}
+
+.research-item {
+  display: flex;
+  margin-bottom: 1.5em;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  align-items: flex-start;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.research-image {
+  flex-shrink: 0;
+  margin-right: 20px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.research-image img {
+  width: 150px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.research-content {
+  margin-top: 5px;
+  flex: 1;
+}
+
+.research-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  font-size: 1.3em;
+}
+
+.research-content p {
+  margin: 0.5em 0;
+  margin-top: 0px;
+}
+
+.research-content p strong {
+  font-size: 0.9em;
+}
+
+papertitle {
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  font-weight: 200;
+  color: black;
+}
+
+abstract,
+authors {
+  color: #696969;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 0.9em;
+  color: #7f8c8d;
+}
+
+@media (max-width: 600px) {
+  .profile-section {
+    flex-direction: column;
+    /* Stack the image and text vertically */
+    align-items: center;
+    /* Ensure content is centered */
+    text-align: center;
+    /* Center the content on small screens */
+  }
+
+  .profile-image {
+    margin: 0 auto 20px;
+    /* Center the image and add space below it */
+  }
+
+  .profile-info {
+    width: 100%;
+    /* Ensure the text container takes full width */
+    text-align: center;
+    /* Center the text */
+    margin: 0;
+    /* Ensure no extra margin pushes the content off-center */
+  }
+
+  .profile-info h1,
+  .profile-info p,
+  .profile-info nav {
+    text-align: center;
+    /* Ensure the text is centered */
+  }
+}
