@@ -1,7 +1,7 @@
 body {
-  font-family: 'IBM Plex Sans', 'Lato', Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 1em;
   color: #333;
   background-color: #f8f8f8;
   margin: 0;
@@ -71,33 +71,31 @@ a:hover {
 .profile-info p {
   margin: 2px 0;
   text-align: left;
+  flex: 1;
 }
 
 .profile-info ul {
   text-align: left;
 }
 
+.profile-image {
+  width: auto;
+  text-align: center;
+  font-size: 12pt;
+}
+
 .profile-image img {
   width: 225px;
   height: auto;
-  margin-top: 5px;
+  margin-top: 3px;
   margin-right: 10px;
   margin-bottom: 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile-image p {
-  margin: 0px 0;
-  margin-right: 15px;
-  text-align: center;
-  font-size: 12pt;
-}
-
 .profile-image nav {
   margin: 0px 0;
   margin-right: 14px;
-  text-align: center;
-  font-size: 10pt;
 }
 
 nav {
@@ -182,31 +180,23 @@ footer {
 @media (max-width: 600px) {
   .profile-section {
     flex-direction: column;
-    /* Stack the image and text vertically */
     align-items: center;
-    /* Ensure content is centered */
     text-align: center;
-    /* Center the content on small screens */
   }
 
   .profile-image {
     margin: 0 auto 20px;
-    /* Center the image and add space below it */
   }
 
   .profile-info {
     width: 100%;
-    /* Ensure the text container takes full width */
-    text-align: center;
-    /* Center the text */
+    text-align: left;
     margin: 0;
-    /* Ensure no extra margin pushes the content off-center */
   }
 
   .profile-info h1,
   .profile-info p,
   .profile-info nav {
-    text-align: center;
-    /* Ensure the text is centered */
+    text-align: left;
   }
 }
