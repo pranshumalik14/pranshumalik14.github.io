@@ -81,7 +81,7 @@ a:hover {
 .profile-image {
   width: auto;
   text-align: center;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 .profile-image img {
@@ -107,7 +107,7 @@ nav a {
 }
 
 p+ul {
-  margin-top: -3px;
+  margin-top: -1px;
 }
 
 .research {
