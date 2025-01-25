@@ -55,7 +55,7 @@ a:hover {
 }
 
 .profile-info {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 0px;
   flex: none;
   text-align: left;
@@ -87,7 +87,7 @@ a:hover {
 .profile-image img {
   width: 225px;
   height: auto;
-  margin-top: 3px;
+  margin-top: 1.75px;
   margin-right: 10px;
   margin-bottom: 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
